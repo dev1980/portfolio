@@ -14,6 +14,9 @@ body,
   min-height: 100vh;
 }
 
+.h3 {
+  font-size: 15px;
+}
 /* Set a display font for headings and quotes */
 h1,
 h2,
@@ -29,7 +32,11 @@ blockquote p,
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
 }
-
+#main p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
 ul li {
   margin-bottom: 0.2rem;
 }
