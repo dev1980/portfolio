@@ -41,16 +41,6 @@ ul li {
   margin-bottom: 0.2rem;
 }
 
-/*
-####################################################
-U T I L I T I E S
-####################################################
-*/
-
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Background color utilties
-*/
 .bg-gray-1 {
   background-color: #f8f9fa !important;
 }
@@ -91,17 +81,6 @@ Background color utilties
   background-color: #000 !important;
 }
 
-/*
-####################################################
-C O M P O N E N T S
-####################################################
-*/
-
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-employment
-*/
-
 .employment-header h2 {
   font-size: 1.8rem;
 }
@@ -113,17 +92,6 @@ employment
   font-style: italic;
   font-size: 16px;
 }
-
-/*
-####################################################
-S E C T I O N S / 
-####################################################
-*/
-
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Sidebar
-*/
 
 @media (min-width: 992px) {
   #sidebar {
@@ -142,18 +110,16 @@ Sidebar
   margin-top: 1rem;
 }
 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Skills
-*/
 #skills .btn {
   margin: 0 0.2rem 0.5rem;
 }
 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Blog
-*/
+#projects li {
+  border: 1px solid #ff851b;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px 0px 15px 0px;
+}
 #blog small {
   display: block;
   font-style: italic;
