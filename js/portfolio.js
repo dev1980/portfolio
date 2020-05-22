@@ -1,28 +1,53 @@
-console.log('homepage.js loaded');
-
-$(document).ready(function() {
- // executes when HTML-Document is loaded and DOM is ready
-  
-  
-	//http://stackoverflow.com/a/14805615/3853728
-	$('a[href^="#"]').not(".carousel-control-next, .carousel-control-prev").click(function(e){     
-	    event.preventDefault();
-	    $('html,body').animate({scrollTop:$(this.hash).offset().top -100}, 2000);
-	    //
-	    $('.navbar-collapse').collapse('hide')
-	});
-
-
-
-
-// document ready  
-});
+let x = document.querySelector(".one")
+let y = document.querySelector(".two")
+let z = document.querySelector(".three")
+let a = document.querySelector(".four")
+let b = document.querySelector(".five")
 
 
 window.onload = function() {
  // executes when complete page is fully loaded, including all frames, objects and images
 //console.log("window is loaded");
-  
+
   
 // window load  
 };
+myFunction = () => {
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+myFunctionTwo = () => {
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
+
+myFunctionThree = () => {
+  if (z.style.display === "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
+  }
+}
+
+myFunctionFour = () => {
+  if (a.style.display === "none") {
+    a.style.display = "block";
+  } else {
+    a.style.display = "none";
+  }
+}
+myFunctionFive = () => {
+  if (b.style.display === "none") {
+    b.style.display = "block";
+  } else {
+    b.style.display = "none";
+  }
+}
+

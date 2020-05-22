@@ -26,10 +26,13 @@
     />
 
     <link href="./css/style.css" rel="stylesheet" />
+     <!-- Custom Javascript -->
+     <script defer src="js/portfolio.js"></script>
   </head>
 
   <body class="bg-light" id="top">
     <div class="container-fluid">
+      <p id="topSection"></p>
       <div class="row">
         <div class="col-md-4 col-lg-4 col-xl-2 bg-secondary p-4" id="sidebar">
           <div class="text-center">
@@ -94,7 +97,7 @@
           <section id="history">
             <div class="employment">
               <div class="employment-header">
-                <h2>Junior Full-stack developer</h2>
+                <h2>Full-stack developer</h2>
                 <p>
                   <a
                     href="https://drive.google.com/file/d/17WdUhmGgeIpArnEg4SK-fml0dpmZrbit/view"
@@ -150,25 +153,38 @@
             <h2 class="h4 text-secondary">Some of my projects</h2>
 
             <ul class="list-unstyled">
-              <li>
-                <a
+          
+                <li>
+                  <a
                   href="https://capstone-react-redux-app.herokuapp.com/"
                   target="_blank"
                   >React Redux Recipe Search - <b>Demo Link</b></a
                 >
-                <p>
-                  A single page react and redux application which uses third
-                  party API to fetch information about different meal recipes
-                  and displays them in a catalogue.
-                </p>
+                  <p>
+                    A single page react and redux application which uses third
+                    party API to fetch information about different meal recipes
+                    and displays them in a catalogue.
+                  </p>
 
-                <a
-                  href="https://github.com/dev1980/capstone-project-react-redux"
-                  target="_blank"
-                  >Github Link</a
-                >
-              </li>
+                  <a
+                    href="https://github.com/dev1980/capstone-project-react-redux"
+                    target="_blank"
+                    >Github Link</a
+                  >
+                  <br/>
+                  <button onclick="myFunction()" class="btn btn-danger mt-3">Screenshot</button>
 
+                  <div class="one" style="display: none;">
+                    <a
+                      href="https://capstone-react-redux-app.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <img src="./img/recipe.jpg" alt="screenshort"
+                    /></a>
+                  </div>
+                </li>
+               
+             
               <li>
                 <a
                   href="https://goofy-neumann-7345a8.netlify.app/"
@@ -185,6 +201,17 @@
                   target="_blank"
                   >Github Link</a
                 >
+                <br/>
+                <button onclick="myFunctionTwo()" class="btn btn-danger mt-3">Screenshot</button>
+
+                <div class="two" style="display: none;">
+                  <a
+                    href="https://goofy-neumann-7345a8.netlify.app/"
+                    target="_blank"
+                  >
+                    <img src="./img/js_game.png" alt="screenshort"
+                  /></a>
+                </div>
               </li>
 
               <li>
@@ -203,6 +230,17 @@
                   target="_blank"
                   >Github Link</a
                 >
+                <br />
+                <button onclick="myFunctionThree()" class="btn btn-danger mt-3">Screenshot</button>
+
+                <div class="three" style="display: none;">
+                  <a
+                    href="https://intense-wave-17449.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <img src="./img/facebook.png" alt="screenshort"
+                  /></a>
+                </div>
               </li>
 
               <li>
@@ -222,6 +260,17 @@
                   target="_blank"
                   >Github Link</a
                 >
+                <br />
+                <button onclick="myFunctionFour()" class="btn btn-danger mt-3">Screenshot</button>
+
+                <div class="four" style="display: none;">
+                  <a
+                    href="https://react-dev-calculaor.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <img src="./img/calculator.png" alt="screenshort"
+                  /></a>
+                </div>
               </li>
 
               <li>
@@ -240,6 +289,17 @@
                   target="_blank"
                   >Github Link</a
                 >
+                <br />
+                <button onclick="myFunctionFive()" class="btn btn-danger mt-3">Screenshot</button>
+
+                <div class="five" style="display: none;">
+                  <a
+                    href="https://dev1980.github.io/Newsweek-Using-Bootstrap/"
+                    target="_blank"
+                  >
+                    <img src="./img/news.png" alt="screenshort"
+                  /></a>
+                </div>
               </li>
             </ul>
           </section>
@@ -272,6 +332,7 @@
                 <small>03/27/2020</small>
               </li>
             </ul>
+            <p><a href="#topSection">Back to Top</a></p>
           </section>
           <footer>
             <p>@Personal Site | Brham Dev Mahato</p>
@@ -304,9 +365,6 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Custom Javascript -->
-    <script src="js/portfolio.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script

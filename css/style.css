@@ -121,6 +121,67 @@ ul li {
   padding: 10px;
   margin: 15px 0px 15px 0px;
 }
+
+.one {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+.one img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.two {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+.two img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.three {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+.three img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.four {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+.four img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.five {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+.five img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
 #blog li {
   border: 1px solid #ff851b;
   border-radius: 8px;
